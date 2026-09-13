@@ -94,10 +94,6 @@ TW_NO_FASTBOOT_BOOT := true
 # Reduce size flags
 TW_EXCLUDE_NANO := true
 TW_EXCLUDE_APEX := true
-TW_EXCLUDE_TWRPAPP := true
-TW_EXCLUDE_PYTHON := true
-TW_DEFAULT_LANGUAGE := en
-TW_EXTRA_LANGUAGES := false
 TW_EXCLUDE_SUPERSU := true
 
 # Remove bash shell support
