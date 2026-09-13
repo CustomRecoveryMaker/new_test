@@ -95,6 +95,7 @@ TW_NO_FASTBOOT_BOOT := true
 
 # Decryption 
 TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
 
 # Reduce size flags
 TW_EXCLUDE_NANO := true
