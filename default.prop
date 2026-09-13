@@ -10,3 +10,6 @@ sys.usb.config=adb,mtp
 
 # persist adb
 persist.adb.nonblocking_ffs=1
+
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
