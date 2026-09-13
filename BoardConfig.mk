@@ -7,6 +7,9 @@ AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += vendor system_ext system boot vbmeta_vendor vbmeta_system product
 BOARD_USES_RECOVERY_AS_BOOT := true
 
+# APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
